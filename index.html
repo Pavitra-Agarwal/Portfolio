@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/07ba2fbda3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="C:\Portfolio\img\logo.png" class="logo" width="300px" height="100px">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>My Portfolio</p>
+                <h1>Hi I'm <span>Pavitra</span>  <br>Agarwal</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="C:\Portfolio\img\about.jpeg"  >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">
+                        About Me
+                    </h1>
+                  <p>"Hi, I'm Pavitra Agarwal, a passionate graphic designer and web developer with a love for visual storytelling. With percuing a degree in Computer Science, I create captivating designs that strike the perfect balance between aesthetics and functionality. I find inspiration in nature and travel, which often influences my work. My goal is to push the boundaries of design, evoke emotions, and make a positive impact through my creations. Let's connect and explore new creative possibilities together!"</p>
+
+                  <div class="tab-titels">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                  </div>
+                  <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Frontend Development</span><br>Website Development</li>
+                        <li><span>DBMS</span><br>Database Handler</li>
+                        <li><span>Graphic Designer</span><br>Graphic designs and Mini-Ads Designer</li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023- current</span><br>Web Development Internship</li>
+                        <li><span>2023- current</span><br>Graphic Designer Internship</li>
+                     
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024</span><br>BCA from Invertis University</li>
+                        <li><span>2021</span><br>Senior Secondary from B.B.L Public School</li>
+                        <li><span>2019</span><br>High School from B.B.L Public School</li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">
+                My Services
+            </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend Development</h2>
+                    <p>"Welcome to my personal frontend development services! As a skilled frontend developer, I offer custom solutions to transform your ideas into captivating and functional websites. With expertise in HTML, CSS, and JavaScript, I specialize in creating seamless user experiences that engage and delight visitors. From designing intuitive user interfaces to implementing responsive layouts, I leverage the latest frontend technologies to ensure your website looks stunning across all devices. Whether you need a complete website developed from scratch or assistance with enhancing an existing website, I'm here to bring your vision to life. With a focus on performance optimization, accessibility, and cross-browser compatibility, I ensure your website not only meets modern standards but also delivers exceptional performance. Let's collaborate to create a standout online presence that reflects your brand, drives conversions, and leaves a lasting impression on your audience."</p>
+                   
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Database Administrator</h2>
+                    <p>"As a skilled database administrator, I provide comprehensive solutions to optimize and manage your valuable data. With a deep understanding of database systems and a meticulous attention to detail, I ensure the smooth operation, security, and efficiency of your database infrastructure. From designing and implementing robust database architectures to monitoring and troubleshooting performance issues, I strive to deliver reliable and scalable solutions tailored to your specific needs. With my expertise in data backup and recovery, I prioritize the protection of your critical information, minimizing the risk of data loss or unauthorized access. By partnering with me as your trusted database administrator, you can focus on your core business while enjoying a seamlessly functioning and well-protected data environment."</p>
+                   
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Social Media Content Creating</h2>
+                    <p>"As a dedicated social media creator, I offer comprehensive solutions to help you establish a strong online presence and engage with your target audience effectively. With a deep understanding of various social media platforms and trends, I specialize in creating compelling content that resonates with your brand's voice and values. From developing engaging posts, crafting captivating captions, to designing eye-catching visuals, I strive to create a cohesive and impactful social media strategy that drives engagement and boosts brand awareness. I also keep a close eye on analytics and trends to continuously optimize your social media presence, ensuring that your content reaches the right audience at the right time. By partnering with me as your social media creator, you can elevate your brand's online visibility, build meaningful connections with your audience, and achieve your social media goals with confidence."</p>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- --------------------------portfolio----------------------- -->
+    <div id="portfolio">
+     
+        <div class="container">
+            <h1 class="sub-title">
+                My Work
+            </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="C:\Portfolio\img\work1.jpg">
+                    <div class="layer">
+                        <h3>
+                            Personal Portfolio Website 
+                        </h3>
+                        <p>created personal portfolio using html/css and js</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="C:\Portfolio\img\work2.jpg">
+                    <div class="layer">
+                        <h3>
+                            Database Administrator
+                        </h3>
+                        <p>Manages Database using MySql</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="C:\Portfolio\img\work3.jpg">
+                    <div class="layer">
+                        <h3>
+                            Graphic Designer
+                        </h3>
+                        <p>Creating designs and marketing videos</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+
+        </div>
+    </div>
+    <div id="contact">
+    <div class="container">
+        <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">
+                Contact Me
+            </h1>
+            <p><i class="fa-solid fa-paper-plane"></i>pavitraagarwal2003@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>8445546304</p>
+            <div class="social-icon">
+                <a href="https://www.facebook.com/pavitra.agarwal.902?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/pavitra-agarwal-880a53222"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="resume.pdf" download class="btn btn2">Download Resume</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>Copyright © Pavitra.com</p>
+</div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+       for(tablink of tablinks){
+           tablink.classList.remove("active-link");
+       }
+       for(tabcontent of tabcontents){
+           tabcontent.classList.remove("active-tab");
+       }
+       event.currentTarget.classList.add("active-link")
+       document.getElementById(tabname).classList.add("active-tab")
+    }
+   
+       </script>
+</body>
+</html>
